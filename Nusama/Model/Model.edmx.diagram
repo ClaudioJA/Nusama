@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a64f2452458644b29b62874bc0540318" Name="Diagram1" ZoomLevel="61">
+        <EntityTypeShape EntityType="DatabaseModel.Cart" Width="1.5" PointX="9.5" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.ColorOption" Width="1.5" PointX="11.75" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.Comment" Width="1.5" PointX="6" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.Customer" Width="1.5" PointX="0.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.Product" Width="1.5" PointX="2.75" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.SizeOption" Width="1.5" PointX="11.75" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.TransactionDetail" Width="1.5" PointX="6.875" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.TransactionHeader" Width="1.5" PointX="0.625" PointY="14.25" IsExpanded="true" />
+        <AssociationConnector Association="DatabaseModel.FK_Cart_To_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_Cart_To_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_ColorOption_To_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_Comment_To_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_Comment_To_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_Product_To_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_TransactionHeader_To_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_SizeOption_To_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_TransactionDetail_To_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_TransactionDetail_To_TransactionHeader" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
